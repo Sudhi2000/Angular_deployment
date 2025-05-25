@@ -3,7 +3,7 @@ name: Sync to CI_CD_Sample2
 on:
   push:
     branches:
-      - main  # or whatever branch you're tracking
+      - master  # or whatever branch you're tracking
 
 jobs:
   sync:
