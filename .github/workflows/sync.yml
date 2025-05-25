@@ -19,7 +19,7 @@ jobs:
 
       - name: Clone target repo
         run: |
-          git clone https://x-access-token:${{ secrets.NEWTOKEN1 }}@github.com/Sudhi2000/CI_CD_Sample2.git destination-repo
+          git clone https://x-access-token:${{ secrets.NEWTOKEN2 }}@github.com/Sudhi2000/CI_CD_Sample2.git destination-repo
           
       - name: Copy files to target repo
         run: |
